@@ -5,10 +5,9 @@
   <version>v1.0.0</version>
   <packaging>war</packaging>
   
-  <configuration>
-  	<encoding>UTF-8</encoding>
-  </configuration>
-  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   
   <build>
     <sourceDirectory>src/java/main</sourceDirectory>
