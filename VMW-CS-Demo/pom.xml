@@ -10,10 +10,6 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <group>${project.groupId}</group>
-    <artifactId>${project.artifactId}</artifactId>
-    <version>${project.version}</version>
-    <packaging>${project.packaging}</packaging>
   </properties>
   
   <build>
@@ -31,24 +27,6 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>properties-maven-plugin</artifactId>
-        <version>1.0.0</version>
-        <executions>
-          <execution>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>write-project-properties</goal>
-            </goals>
-            <configuration>
-              <outputFile>
-                ${project.basedir}/target/app.properties
-              </outputFile>
-            </configuration>
-          </execution>
-        </executions>
       </plugin>
     </plugins>
   
