@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<h2>Full Name Test App versão 1.1.2</h2>
+	<h2>Full Name Test App v2.2.0</h2>
 	<form action="FullName" method="GET">
 		Insert your first name:<br>
 		<input type="text" name="fn"><br>
